@@ -1,0 +1,26 @@
+body{
+  background-image: url("/cow.png");
+  background-size: 96px 96px;
+  background-repeat: repeat;
+
+  .home{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+    h1{
+      font-weight: bold;
+      font-size: 3rem;
+      color: #faf089;
+      background-color: crimson;
+      text-align: center;
+      padding: 5px;
+      border: 2px solid black;
+      text-shadow: 1px 1px 2px black;
+    }
+
+    #game{
+      border: 2px solid black;
+    }
+  }
+}
